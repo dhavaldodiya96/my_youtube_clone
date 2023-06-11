@@ -2,7 +2,7 @@
   "name": "my-youtube",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dhavaldodiya96.github.io/my-youtube-clobe",
+  "homepage": "https://dhavaldodiya96.github.io/my_youtube_clone",
   "dependencies": {
     "-": "^0.0.1",
     "@reduxjs/toolkit": "^1.9.5",
