@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/my-youtube-clobe/static/css/main.6f2dacdd.css",
+    "main.js": "/my-youtube-clobe/static/js/main.e7e61cbc.js",
+    "index.html": "/my-youtube-clobe/index.html",
+    "main.6f2dacdd.css.map": "/my-youtube-clobe/static/css/main.6f2dacdd.css.map",
+    "main.e7e61cbc.js.map": "/my-youtube-clobe/static/js/main.e7e61cbc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f2dacdd.css",
+    "static/js/main.e7e61cbc.js"
+  ]
+}
