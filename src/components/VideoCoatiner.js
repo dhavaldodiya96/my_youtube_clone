@@ -3,7 +3,7 @@ import { YOUTUBE_VIDEO_API } from '../utils/constant';
 import VideoCards from './VideoCards';
 import { Link } from 'react-router-dom';
 
-const VideoCoatiner = () => {
+const  VideoCoatiner = () => {
 
   const [video,setVideo]= useState([])
 

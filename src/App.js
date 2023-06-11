@@ -7,12 +7,13 @@ import store from "./utils/store";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import WatchPage from "./components/WatchPage";
 import MainContainer from "./components/MainContainer";
-
+import Error from "./components/Error";
 
 const router = createBrowserRouter([
   {
      path : "/",
      element : <Body />,
+     errorElement : <Error />,
      children:[
        {
         path : "/",
@@ -23,7 +24,21 @@ const router = createBrowserRouter([
         element : <WatchPage />
        }
      ]
-  },
+  },{
+    path : "/my_youtube_clone/",
+    element : <Body />,
+    errorElement : <Error />,
+    children:[
+      {
+       path : "/my_youtube_clone/",
+       element : <MainContainer/>,
+      },
+      {
+       path : "Watch",
+       element : <WatchPage />
+      }
+    ]
+ },
 
 ])
 
@@ -37,7 +52,6 @@ function App() {
     </>
   );
 }
-
 export default App;
 
  
